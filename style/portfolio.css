@@ -224,3 +224,31 @@ main{
       background-color: #FFF8F3;
       padding: 130px 230px;
 }
+
+.social-link a{
+      margin-right: 25px;
+}
+
+.contact input[type="text"], .contact input[type="email"], textarea{
+      display: block;
+      margin-bottom: 25px;
+      padding: 18px 35px;
+      color: #757575;
+      border-radius: 5px;
+      background-color: #fff;
+      border: 0;
+       
+}
+
+
+/*contact page related style*/
+
+.contact-page img{
+      width: 100%;
+      margin: auto;
+      padding-top: 30px;
+}
+.banner-contact a{
+      text-decoration: none;
+      color: #ffffff;
+}
