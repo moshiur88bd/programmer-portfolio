@@ -252,3 +252,20 @@ main{
       text-decoration: none;
       color: #ffffff;
 }
+
+/* responsive related style*/
+
+/*mobile devices*/
+.hide{
+      display: none;
+}
+
+@media screen and (max-width:  576px) {
+      .skill-container{
+            flex-direction: column;
+      }
+      #what-i-do-description{
+            padding: 20px;
+            text-align: justify;
+      }
+}
