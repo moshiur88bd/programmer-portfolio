@@ -223,6 +223,11 @@ main{
       gap: 50px;
       background-color: #FFF8F3;
       padding: 130px 230px;
+      margin: auto;
+}
+
+.footer-coloumn{
+      width: 50%;
 }
 
 .social-link a{
@@ -261,11 +266,46 @@ main{
 }
 
 @media screen and (max-width:  576px) {
-      .skill-container{
+      .skill-container {
             flex-direction: column;
       }
       #what-i-do-description{
             padding: 20px;
             text-align: justify;
       }
+
+      .resume-container{
+            flex-direction: column;
+            padding-left: 25px;
+      }
+
+      .footer-container{
+            flex-direction: column;
+            padding: 20px;
+            margin: auto;
+            align-items: center;
+      }
+      .footer-container h3{
+            text-align: center;
+      }
+
+      .contact {
+            margin: auto;
+      }
 }
+
+/* @media screen and (min-width: 576px) and (max-width: 994px) {
+      .skill-container {
+            flex-direction: column;
+      }
+      #what-i-do-description{
+            padding: 20px;
+            text-align: justify;
+      }
+
+      .resume-container{
+            flex-direction: column;
+            padding-left: 25px;
+      } 
+      
+} */
