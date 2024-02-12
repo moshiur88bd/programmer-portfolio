@@ -42,7 +42,6 @@ nav{
       justify-content: space-between;
       align-items: center;
       margin: 0 150px;
-
 }
 
 .nav-title{
@@ -266,6 +265,46 @@ main{
 }
 
 @media screen and (max-width:  576px) {
+      .header{
+            background-image: none;
+      }
+
+      .banner{
+            padding : 20px;
+            flex-direction: column;
+            align-items: center;
+      }
+      .banner-title{
+            font-size: 40px;
+      }
+
+      .banner-greeting{
+            font-size: 30px;
+      }
+
+      .d-cv{
+            padding: 8px 0;
+      }
+
+      nav{
+            flex-direction: column;
+            align-items: center;
+            margin: 10px 0;
+            padding: 0 10px;
+      }
+
+      .nav-title{
+            color: 181818;
+            font-size: 30px;
+            font-weight: 600;
+      }
+
+      .btn-primary{
+            
+            width: 150px;
+      }
+      
+
       .skill-container {
             flex-direction: column;
       }
