@@ -282,6 +282,10 @@ main{
             font-size: 30px;
       }
 
+      .banner .profile-pic{
+            width: 100%;
+      }
+
       .d-cv{
             padding: 8px 0;
       }
